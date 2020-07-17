@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label : 'linux'}
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "rajadockerimages/train-schedule"
