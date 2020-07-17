@@ -1,5 +1,5 @@
 pipeline {
-    agent {node {label : 'linux'}}
+    agent { node { label 'linux' } } 
     
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
